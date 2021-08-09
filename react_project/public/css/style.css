@@ -1,0 +1,459 @@
+
+.hide {
+    display: none;
+}
+.active {
+    color: red;
+}
+.navigation {
+    text-decoration: none;
+    background-color: rgb(155, 153, 152);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: rgb(51, 50, 50);
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+}
+.main {
+    height: 100vh;
+    background-color: rgb(189, 189, 188);
+}
+.title_main {
+    color: #4b4b49;
+    font-family: ‘Droid serif’, serif;
+    font-size: 75px; 
+    font-style: italic;
+    font-weight: normal;
+    line-height: 70px; 
+    margin-top: 70px;
+    text-shadow: 0 1px 1px rgb(59, 59, 59);
+    text-align: center;
+}
+.text_main {
+    text-align: center;
+    font-size: 20px;
+    color: #4b4b49; 
+    font-family: ‘Droid serif’, serif;;
+}
+.button_main {
+    width: 230px;
+    height: 70px;
+    margin-right: 100px;
+    background-color:  rgb(155, 153, 152);
+    border: none;
+    box-shadow: 1px 1px grey;
+    outline: none;
+}
+.button_container_main {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.main_link {
+    text-decoration: none;
+    color: #4b4b49;
+    font-size: 23px;
+    font-weight: bold;
+}
+.create_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.create_wrap {
+    display: flex;
+    margin-top: 30px;
+}
+.create_label {
+    width: 200px;
+    color: #4b4b49;
+    font-size: 35px;
+    font-family: ‘Droid serif’, serif; 
+}
+.create_textarea {
+    width: 300px;
+    margin-right: 15px;
+    resize: none;
+    box-shadow: 0px 0px 2px .5px rgb(116, 115, 115);
+    outline: none;
+    height: 40px;
+}
+.create_button {
+    width: 150px;
+    height: 44px;
+    background-color: rgb(179, 175, 175);
+    border: none;
+    box-shadow: 0px 0px 2px 1px rgb(112, 111, 111);
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4b4b49;
+}
+.label_note {
+    font-size: 35px;
+    font-family: ‘Droid serif’, serif;
+    color: #4b4b49;
+}
+.lineClass_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.url_lineClass {
+    font-size: 30px;
+    font-family: ‘Droid serif’, serif; 
+    margin-top: 50px;
+    color: #4b4b49;
+}
+.button_lineClass {
+    width: 250px;
+    height: 36px;
+    background-color: rgb(179, 175, 175);
+    border: none;
+    box-shadow: 0px 0px 2px 1px rgb(112, 111, 111);
+    outline: none;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #4b4b49;
+}
+.input_note {
+    width: 300px;
+    height: 46px;
+    margin-right: 15px;
+    resize: none;
+    box-shadow: 0px 0px 2px 1px rgb(151, 151, 151);
+    outline: none;
+}
+.note {
+    display: flex;
+    margin-top: 40px;
+}
+.button_note {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(197, 197, 197);
+    border: none;
+    box-shadow: 0px 0px 2px 1px rgb(112, 111, 111);
+    outline: none;
+    font-size: 25px;
+    color: #4b4b49;
+}
+.formClass_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.note_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.note_title {
+    font-size: 30px;
+    color: #4b4b49;
+}
+.noteText {
+    font-size: 30px;
+    text-align: center;
+    color: #4b4b49;
+}
+.button_noteText {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(179, 175, 175);
+    border: none;
+    box-shadow: 0px 0px 2px 1px rgb(112, 111, 111);
+    outline: none;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #4b4b49;
+}
+.error {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 100px;
+    font-family: ‘Droid serif’, serif; 
+    color: #4b4b49;
+}
+.error_note {
+    font-size: 35px;
+    text-align: center;
+    font-family: ‘Droid serif’, serif;
+    color: #4b4b49;
+}
+@media (max-width: 1024px) {
+
+.title_main {
+    font-size: 40px;
+}
+.button_main {
+    width: 320px;
+    height: 100px;
+    margin-right: 30px;
+}
+.main_link {
+    font-size: 30px;
+}
+.text_main {
+    font-size: 35px;
+}
+.create_textarea {
+    width: 500px;
+    height: 70px;
+}
+.create_button {
+    width: 200px;
+    height: 74px;
+}
+.create_label {
+    font-size: 55px;
+}
+.create_wrap {
+    margin-top: 50px;
+}
+.url_lineClass {
+    font-size: 32px;
+    align-items: flex-start;
+}
+.button_lineClass {
+    width: 300px;
+    font-size: 25px;
+    height: 45px;
+}
+.label_note {
+    font-size: 40px;
+}
+.input_note {
+    width: 300px;
+    height: 60px;
+}
+.button_note {
+    width: 200px;
+    height: 65px;
+    font-size: 30px;
+}
+.error_note {
+    font-size: 25px;
+
+}
+.note_title {
+    font-size: 40px;
+
+}
+.noteText {
+    font-size: 40px;
+    color: #5f5f5c;
+}
+.button_noteText {
+    width: 400px;
+    font-size: 30px;
+
+}
+@media (max-width: 540px) {
+    .title_main {
+        font-size: 30px;
+    }
+    .button_main {
+        width: 200px;
+        height: 60px;
+        margin-right: 30px;
+    }
+    .main_link {
+        font-size: 20px;
+    }
+    .text_main {
+        font-size: 25px;
+    }
+    .create_textarea {
+        width: 200px;
+        height: 40px;
+    }
+    .create_button {
+        width: 170px;
+        height: 45px;
+        font-size: 17px;
+    }
+    .create_label {
+        font-size: 40px;
+    }
+    .create_wrap {
+        margin-top: 50px;
+    }
+    .url_lineClass {
+        font-size: 23px;
+        align-items: flex-start;
+    }
+    .button_lineClass {
+        width: 300px;
+        font-size: 20px;
+        height: 45px;
+    }
+    .label_note {
+        font-size: 30px;
+    }
+    .input_note {
+        width: 200px;
+        height: 40px;
+    }
+    .button_note {
+        width: 170px;
+        height: 45px;
+        font-size: 20px;
+    }
+    .error_note {
+        font-size: 25px;
+    }
+    .note_title {
+        font-size: 35px;
+    }
+    .noteText {
+        font-size: 30px;
+    }
+    .button_noteText {
+        width: 300px;
+        font-size: 20px;
+    }
+}
+}
+@media (max-width: 414px) {
+
+    .title_main {
+        font-size: 25px;
+    }
+    .button_main {
+        width: 140px;
+        height: 70px;
+        margin-right: 30px;
+    }
+    .main_link {
+        font-size: 20px;
+    }
+    .text_main {
+        font-size: 25px;
+    }
+    .create_textarea {
+        width: 180px;
+        height: 45px;
+    }
+    .create_button {
+        width: 130px;
+        height: 50px;
+    }
+    .create_label {
+        font-size: 35px;
+    }
+    .create_wrap {
+        margin-top: 50px;
+    }
+    .url_lineClass {
+        font-size: 15px;
+        align-items: flex-start;
+    }
+    .button_lineClass {
+        width: 200px;
+        font-size: 15px;
+        height: 40px;
+    }
+    .label_note {
+        font-size: 30px;
+    }
+    .input_note {
+        width: 170px;
+        height: 40px;
+    }
+    .button_note {
+        width: 150px;
+        height: 45px;
+        font-size: 20px;
+    }
+    .error_note {
+        font-size: 25px;
+    }
+    .note_title {
+        font-size: 30px;
+    }
+    .noteText {
+        font-size: 30px;
+    }
+    .button_noteText {
+        width: 250px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 320px) {
+    .title_main {
+        font-size: 12px;
+    }
+    .button_main {
+        width: 90px;
+        height: 40px;
+        margin-right: 30px;
+    }
+    .main_link {
+        font-size: 10px;
+    }
+    .text_main {
+        font-size: 15px;
+    }
+    .create_textarea {
+        width: 120px;
+        height: 35px;
+    }
+    .create_button {
+        width: 100px;
+        height: 40px;
+    }
+    .create_label {
+        font-size: 25px;
+    }
+    .create_wrap {
+        margin-top: 50px;
+    }
+    .url_lineClass {
+        font-size: 12px;
+        align-items: flex-start;
+    }
+    .button_lineClass {
+        width: 150px;
+        font-size: 12px;
+        height: 30px;
+    }
+    .label_note {
+        font-size: 20px;
+    }
+    .input_note {
+        width: 140px;
+        height: 30px;
+    }
+    .button_note {
+        width: 100px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .error_note {
+        font-size: 25px;
+    }
+    .note_title {
+        font-size: 30px;
+    }
+    .noteText {
+        font-size: 30px;
+    }
+    .button_noteText {
+        width: 250px;
+        font-size: 15px;
+    }
+    .navigation {
+        font-size: 15px;
+    }
+}
